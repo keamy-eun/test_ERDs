@@ -1,0 +1,469 @@
+{
+  "canvas": {
+    "version": "2.2.11",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": 0,
+    "scrollLeft": 0,
+    "zoomLevel": 1,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "relationshipOptimization": false,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "영화 이름과 장르",
+        "comment": "",
+        "columns": [
+          {
+            "name": "UniqueID",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "01cbad1c-4968-4c1d-a8e5-3b37f17e3b9a"
+          },
+          {
+            "name": "영화 이름과 장르",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 102.140625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "16b450ea-f67d-4b3f-b2ab-ea4da518a682"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 566,
+          "top": 69,
+          "zIndex": 2,
+          "widthName": 102.140625,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "416cd8f3-ecea-4ca4-9c9a-3b57672657b5"
+      },
+      {
+        "name": "사용자들",
+        "comment": "",
+        "columns": [
+          {
+            "name": "이름",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "1a474058-f92e-4236-9127-70642821b194"
+          },
+          {
+            "name": "대여자 UniqueID",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 100.5537109375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "a7befc47-1761-4836-95c6-d65953192fcc"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 36,
+          "top": 469,
+          "zIndex": 5,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "0018e031-7938-4acc-949e-32bfe869e59f"
+      },
+      {
+        "name": "대여자",
+        "comment": "",
+        "columns": [
+          {
+            "name": "UniqueID",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "32fe3138-926d-4035-9834-c7a75b41f041"
+          },
+          {
+            "name": "대여자 UniqueID",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 100.5537109375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "ef7b9cc8-552f-4aaa-b9c9-5c34c3bd7c70"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 567,
+          "top": 469,
+          "zIndex": 4,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "90dad82c-e2ed-42c2-b9b7-dc244c59b83d"
+      },
+      {
+        "name": "포스터",
+        "comment": "",
+        "columns": [
+          {
+            "name": "UniqueID",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "9a93eaef-6881-4d3a-bf4c-50111b53b6fd"
+          },
+          {
+            "name": "포스터목록 대표값",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 110.5703125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "3d53719c-8d87-4d35-aaaa-d6968f9833f8"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 32,
+          "top": 51,
+          "zIndex": 3,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "df5548d7-8ff6-438b-8806-4f7556d5eb2e"
+      },
+      {
+        "name": "포스터목록",
+        "comment": "",
+        "columns": [
+          {
+            "name": "포스터",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "7e25d690-01a1-42d0-8bce-db2d3d051fd9"
+          },
+          {
+            "name": "포스터목록 대표값",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 110.5703125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "12bf4ad2-ae65-4dd5-98da-bfa1c7c1b26f"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 30,
+          "top": 276,
+          "zIndex": 1,
+          "widthName": 67,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "56ce58bb-de85-415b-b71c-69f394308c90"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": [
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "416cd8f3-ecea-4ca4-9c9a-3b57672657b5",
+          "columnIds": [
+            "01cbad1c-4968-4c1d-a8e5-3b37f17e3b9a"
+          ],
+          "x": 566,
+          "y": 124,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "df5548d7-8ff6-438b-8806-4f7556d5eb2e",
+          "columnIds": [
+            "9a93eaef-6881-4d3a-bf4c-50111b53b6fd"
+          ],
+          "x": 429.5703125,
+          "y": 106,
+          "direction": "right"
+        },
+        "constraintName": "fk_영화 이름과 장르_to_포스터",
+        "visible": true,
+        "id": "53d04f34-f8c0-4903-bbc1-010dd46c9e87"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "56ce58bb-de85-415b-b71c-69f394308c90",
+          "columnIds": [
+            "12bf4ad2-ae65-4dd5-98da-bfa1c7c1b26f"
+          ],
+          "x": 228.78515625,
+          "y": 276,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "df5548d7-8ff6-438b-8806-4f7556d5eb2e",
+          "columnIds": [
+            "3d53719c-8d87-4d35-aaaa-d6968f9833f8"
+          ],
+          "x": 230.78515625,
+          "y": 161,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_포스터목록_to_포스터",
+        "visible": true,
+        "id": "a235829d-1a3f-4e63-b2d8-1be03f5ce712"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "416cd8f3-ecea-4ca4-9c9a-3b57672657b5",
+          "columnIds": [
+            "01cbad1c-4968-4c1d-a8e5-3b37f17e3b9a"
+          ],
+          "x": 760.5703125,
+          "y": 179,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "90dad82c-e2ed-42c2-b9b7-dc244c59b83d",
+          "columnIds": [
+            "32fe3138-926d-4035-9834-c7a75b41f041"
+          ],
+          "x": 760.77685546875,
+          "y": 469,
+          "direction": "top"
+        },
+        "constraintName": "fk_영화 이름과 장르_to_대여자",
+        "visible": true,
+        "id": "1bb3960b-ddfd-4208-922d-d9d6f2d9a023"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "0018e031-7938-4acc-949e-32bfe869e59f",
+          "columnIds": [
+            "a7befc47-1761-4836-95c6-d65953192fcc"
+          ],
+          "x": 423.5537109375,
+          "y": 524,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "90dad82c-e2ed-42c2-b9b7-dc244c59b83d",
+          "columnIds": [
+            "ef7b9cc8-552f-4aaa-b9c9-5c34c3bd7c70"
+          ],
+          "x": 567,
+          "y": 524,
+          "direction": "left"
+        },
+        "constraintName": "fk_사용자들_to_대여자",
+        "visible": true,
+        "id": "a58c836e-234a-4b5a-bc00-07c156c5dfe2"
+      }
+    ]
+  }
+}
