@@ -4,7 +4,7 @@
 -- + 회원 가입 모두(U1 ~ U4)
 -- + 회원 탈퇴(U2, U4)
 INSERT INTO auth_names(AUTH_NAME, UNIQUE_ID)
-VALUES ('GUEST', 'B1')
+VALUES ('GUEST', 'B1') 
 ;
 INSERT INTO auth_names(AUTH_NAME, UNIQUE_ID)
 VALUES ('ADMIN', 'B2')
