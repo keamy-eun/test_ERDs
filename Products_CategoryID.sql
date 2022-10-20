@@ -1,7 +1,7 @@
--- Products에 CategoryID가 5,6인 Products 이름과 Supplier아이디 출력
+-- Products에 CategoryID가 5,6인 Products 이름과 Supplier이름 출력
 
-SELECT Products.ProductName, Products.SupplierID
+SELECT Products.ProductName, Suppliers.SupplierName
 FROM Products
-INNER JOIN Categories
-ON Products.CategoryID=Categories.CategoryID
-AND Categories.CategoryID in (5,6);
+INNER JOIN Suppliers
+ON Products.SupplierID=Suppliers.SupplierID
+AND Products.CategoryID in (5,6);
